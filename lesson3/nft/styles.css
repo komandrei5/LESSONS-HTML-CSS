@@ -20,7 +20,7 @@ article {
     padding: 24px;
 }
 
-img {
+article>img {
     margin-bottom: 24px;
 }
 
@@ -37,17 +37,54 @@ h3 {
     margin-bottom: 16px;
 }
 
-p {
+article>p {
     font-family: 'Outfit';
     font-style: normal;
-   text-align: left;
-   letter-spacing: 0.2px;
+    text-align: left;
+    letter-spacing: 0.2px;
 
-   font-weight: 300px;
-   font-size: 18px;
-   line-height: 26px;
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 26px;
 
-   color: #8bacd9;
-   margin-bottom: 24px;
+    color: #8bacd9;
+    margin-bottom: 24px;
 }
 
+.cyan {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    text-transform: uppercase;
+}
+
+.gray {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+} */
+
+/* article div img {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+article div p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+article div p span {
+    margin-left: 2px;
+    color: #FFFFFF;
+}
