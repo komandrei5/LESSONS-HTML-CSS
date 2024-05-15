@@ -1,0 +1,118 @@
+/* універсальний селектор, до всіх елементів */
+* {
+    box-sizing: border-box;
+}
+
+/* групування */
+h3,
+p {
+    margin: 0;
+}
+
+body {
+    background: #0d192c;
+}
+
+article {
+    width: 350px;
+    height: 596px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    padding: 24px;
+
+}
+
+/* комбінатор нащадка першого рівня */
+article>img {
+    margin-bottom: 24px;
+}
+
+h3 {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    font-size: 22px;
+
+    color: #ffffff;
+    text-align: left;
+
+    margin-bottom: 16px;
+}
+
+article>p {
+    font-family: 'Outfit';
+    font-style: normal;
+    text-align: left;
+    letter-spacing: 0.2px;
+
+    font-weight: 300px;
+    font-size: 18px;
+    line-height: 26px;
+
+    color: #8bacd9;
+    margin-bottom: 24px;
+}
+
+/* селектор по імені класу */
+.cyan {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    text-transform: uppercase;
+}
+
+.gray {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+article>div>img {
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+/* селектор по ірерархії елементів */
+article div p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+article div p span {
+    margin-left: 2px;
+    color: #FFFFFF;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div div {
+    column-gap: 8px;
+}
+
+hr {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    border: 1px solid #2E405A;
+}
+
+.footer {
+    justify-content: start;
+    column-gap: 16px;
+}

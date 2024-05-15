@@ -1,0 +1,147 @@
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #4C545C;
+}
+
+body {
+    margin: 0;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 600;
+}
+
+section {
+    max-width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header {
+    padding-top: 130px;
+    padding-bottom: 75px;
+}
+
+header img {
+    margin-bottom: 56px;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: -0.75px;
+    color: #4C545C;
+}
+
+header p {
+    margin-bottom: 48px;
+    max-width: 730px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #9EABB2;
+}
+
+header div a {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 227px;
+    height: 56px;
+    border-radius: 28px;
+    margin-left: 8px;
+    margin-right: 8px;
+
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    padding-top: 13px;
+    transition: background-color 0.2s ease;
+}
+
+.green {
+    background-color: #26BBA4;
+    box-shadow: 0px 10px 20px rgba(137, 229, 199, 0.503305), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.violet {
+    background-color: #6174FF;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.0988035), inset 0px -3px 0px rgba(0, 0, 0, 0.151333);
+}
+
+.green:hover {
+    background-color: #5DCCBB;
+}
+
+.violet:hover {
+    background-color: #8896FF;
+}
+
+section h2 {
+    width: 730px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 45px;
+    letter-spacing: 0.6;
+    color: #4C545C;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 19px;
+}
+
+section p {
+    width: 730px;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #9EABB2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.keep {
+    margin-bottom: 80px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.computer {
+    column-gap: 100px;
+    text-align: left;
+    
+}
+
+.computer div {
+    max-width: 350px;
+}
